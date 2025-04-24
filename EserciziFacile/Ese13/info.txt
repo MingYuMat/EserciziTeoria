@@ -1,0 +1,3 @@
+Magazzino Prodotti (ArrayList + Ricerca)
+Crea una classe Prodotto con nome, codice, prezzo.
+Nel main, cerca un prodotto per codice tra quelli inseriti in un ArrayList.

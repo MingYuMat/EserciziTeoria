@@ -1,0 +1,3 @@
+Interfaccia Animale (Interfacce + Ereditarietà)
+Crea un'interfaccia Animale con metodo verso().
+Implementa Cane e Gatto. Nel main, chiama il verso su una lista di animali.

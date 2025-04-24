@@ -1,0 +1,3 @@
+Stack Generico (Generics + ArrayList)
+Crea una classe Stack<T> con metodi push, pop, peek.
+Nel main, crea uno stack di stringhe e prova tutte le operazioni.

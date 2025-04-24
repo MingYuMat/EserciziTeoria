@@ -1,0 +1,2 @@
+Filtro Numeri Pari (Array + if)
+Nel main, dichiara un array di interi. Stampa solo i numeri pari usando un ciclo.

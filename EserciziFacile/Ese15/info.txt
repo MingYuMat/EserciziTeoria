@@ -1,0 +1,3 @@
+Macchina Astratta (Classe Astratta + Overriding)
+Crea una classe astratta Macchina con metodo avvia().
+Implementa Auto e Moto. Nel main, chiama avvia() su entrambe.

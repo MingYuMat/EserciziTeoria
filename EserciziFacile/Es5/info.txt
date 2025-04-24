@@ -1,0 +1,4 @@
+Forma Astratta (Classi astratte + ereditarietà)
+Crea una classe astratta Forma con metodo astratto double area().
+Implementa Cerchio e Rettangolo, e nel main crea un array di forme e stampa l’area di
+ciascuna.

@@ -1,0 +1,3 @@
+Rubrica Telefonica (ArrayList + Incapsulamento)
+Crea una classe Contatto con nome, numero di telefono (privati) e metodi getter/setter.
+Nel main, usa un ArrayList<Contatto> per gestire l’aggiunta e la stampa dei contatti.

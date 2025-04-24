@@ -1,0 +1,3 @@
+Calcolatrice con switch (args)
+Usa args per ricevere due numeri e un'operazione (+, -, *, /).
+Stampa il risultato.

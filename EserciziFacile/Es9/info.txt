@@ -1,0 +1,3 @@
+Contatore Generico (Generics)
+Crea una classe Contatore<T> che conta elementi di tipo T.
+Nel main, conta quanti numeri e quante stringhe ci sono in due array diversi.

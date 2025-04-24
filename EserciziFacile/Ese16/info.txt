@@ -1,0 +1,3 @@
+Parole Lunghe (Array + Condizioni)
+Nel main, prendi da args una lista di parole.
+Stampa solo quelle più lunghe di 5 lettere.
