@@ -1,4 +1,4 @@
-package Esercizio1;
+package EsercizioFattoInClasse;
 
 public interface Veicolo {
     
