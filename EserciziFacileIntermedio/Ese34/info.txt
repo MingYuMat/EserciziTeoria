@@ -1,0 +1,3 @@
+Parcheggio (OOP + Array + Occupazione posti)
+Classi Auto, PostoAuto, Parcheggio.
+Nel main, simula entrate/uscite e stampa lo stato del parcheggio.

@@ -1,0 +1,3 @@
+Interfaccia Pagabile (Interfacce)
+Crea un'interfaccia Pagabile con metodo calcolaTotale().
+Implementa in Fattura e Abbonamento. Stampa il totale da pagare.

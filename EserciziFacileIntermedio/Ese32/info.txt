@@ -1,0 +1,4 @@
+Sistema di Login (HashMap + Stringhe + Sicurezza base)
+Nel main, simula un sistema di login con utenti memorizzati in un HashMap<username,
+password>
+Verifica se le credenziali inserite da args sono corrette.

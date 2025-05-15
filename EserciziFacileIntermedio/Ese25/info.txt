@@ -1,0 +1,4 @@
+Gestione Catalogo Prodotti con Filtri (Generics + Funzioni + Filtri)
+Crea una classe generica Catalogo<T> che permette di aggiungere e filtrare prodotti
+tramite Predicate<T>.
+Nel main, filtra prodotti per prezzo, nome, o disponibilità.

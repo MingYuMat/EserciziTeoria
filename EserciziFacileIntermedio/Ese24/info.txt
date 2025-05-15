@@ -1,0 +1,5 @@
+Gestione Ordini con Interfacce (Interfaccia + ArrayList +
+Polimorfismo)
+Crea un'interfaccia Spedibile con metodo spedizione().
+Classi OrdineOnline e OrdineNegozio la implementano in modo diverso.
+Nel main, gestisci una lista mista di ordini e stampa il metodo di spedizione per ciascuno.

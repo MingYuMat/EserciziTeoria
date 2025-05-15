@@ -1,0 +1,3 @@
+Magazzino Multiclasse (ArrayList + Ereditarietà + instanceof)
+Crea Prodotto, e classi figlie Alimentare, Elettronico.
+Nel main, aggiungi vari prodotti e stampa solo quelli di un certo tipo.

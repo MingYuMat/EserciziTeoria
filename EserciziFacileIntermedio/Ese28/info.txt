@@ -1,0 +1,4 @@
+Parser JSON Manuale (Stringhe + Logica + ArrayList)
+Nel main, ricevi da args una stringa stile JSON semplice ({"nome":"Luca",
+"eta":22})
+Parsa e crea un oggetto Persona, senza usare librerie esterne.

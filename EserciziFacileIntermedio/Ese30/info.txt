@@ -1,0 +1,3 @@
+Gestione Playlist (ArrayList + Oggetti + Metodi Statici)
+Classe Canzone con titolo, artista, durata.
+Nel main, crea una playlist e calcola la durata totale tramite metodo statico.

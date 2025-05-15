@@ -1,0 +1,3 @@
+Classifica Mondiale (Ereditarietà + Comparable)
+Classe SquadraNazionale implementa Comparable per ordinamento per punti.
+Nel main, stampa la classifica ordinata.

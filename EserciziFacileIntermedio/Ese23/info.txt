@@ -1,0 +1,3 @@
+Sistema di Prenotazione Cinema (OOP + ArrayList + Logica)
+Crea classi Sala, Film, Prenotazione. Ogni sala ha un numero di posti.
+Nel main, consenti di prenotare posti per un film in una sala e verifica la disponibilità.

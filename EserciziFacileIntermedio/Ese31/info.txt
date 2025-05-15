@@ -1,0 +1,3 @@
+Rubrica con Ricerca Avanzata (ArrayList + Stream-like)
+Classe Contatto con nome, numero, email.
+Nel main, implementa ricerche dinamiche per nome parziale o dominio email.

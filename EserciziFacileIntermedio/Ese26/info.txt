@@ -1,0 +1,4 @@
+Sistema Banca (Classi astratte + Ereditarietà + Overriding)
+Classe astratta ContoBancario, sottoclassi ContoCorrente, ContoRisparmio.
+Ogni tipo ha un metodo calcolaInteresse() diverso.
+Nel main, calcola l’interesse per una lista di conti.

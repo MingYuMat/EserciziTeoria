@@ -1,0 +1,3 @@
+Gestione File Studenti (File I/O + ArrayList + Parsing)
+Leggi un file .txt contenente dati di studenti (nome, voto)
+Nel main, calcola la media voti e salva il risultato in un altro file.

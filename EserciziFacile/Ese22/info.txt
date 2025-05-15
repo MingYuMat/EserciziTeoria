@@ -1,0 +1,3 @@
+Diario di Bordo (ArrayList + Date)
+Crea una classe VoceDiario con testo e data (usa LocalDate).
+Nel main, aggiungi voci e stampa quelle degli ultimi 7 giorni.
