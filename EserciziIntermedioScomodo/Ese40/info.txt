@@ -1,0 +1,4 @@
+Analizzatore di Testo (File I/O + Map + Frequenze)
+Leggi un file di testo, conta quante volte compare ogni parola (case insensitive).
+Usa una HashMap<String, Integer>.
+Nel main, stampa le parole ordinate per frequenza.

@@ -1,0 +1,4 @@
+Simulazione Parcheggio (Array + Stato)
+Rappresenta un parcheggio a 10 posti come array.
+Ogni posto può essere libero o occupato.
+Nel main, consenti ingresso e uscita auto.
