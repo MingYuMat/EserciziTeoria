@@ -13,8 +13,8 @@ public class scacchiera {
         //genero una lista da cui andro a prendere i pezzi da inserire nel mio tabellone
 
         for (int i=0;i<8;i++){
-            tabellone[0][i]=new pezzo("B-" + pezzi[i]);
-            tabellone[1][i]=new pezzo("pedone");
+            tabellone[0][i]=new pezzo("B-" + pezzi[i]); //prima linea i pezzi 
+            tabellone[1][i]=new pezzo("pedone"); //seconda linea i pedoni
         }
         //inseriti i pezzi bianchi
 
@@ -23,11 +23,11 @@ public class scacchiera {
                 tabellone[i][j]= new pezzo("-");
             }
         }
-        //spazio vuoto nella tabella
+        //spazio vuoto nella tabella al centro 
 
         for(int i=0;i<8;i++){
-            tabellone[6][i]=new pezzo("N-pedone");
-            tabellone[7][i]=new pezzo("N-"+ pezzi[i]);
+            tabellone[6][i]=new pezzo("N-pedone"); //penultima linea sono pedoni
+            tabellone[7][i]=new pezzo("N-"+ pezzi[i]); //ultima linea pezzi forti
     
         }
         //pezzi neri

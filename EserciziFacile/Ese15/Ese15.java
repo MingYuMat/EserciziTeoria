@@ -14,7 +14,7 @@ public class Ese15 {
         veicolo.add(new moto("kawasaki"));
 
 
-        for(macchina x : veicolo){
+        for(macchina x : veicolo){ //in base al tipo di veicolo la funzione info e avvia agirà differentemente 
             x.info();
             x.avvia();
             System.out.println();

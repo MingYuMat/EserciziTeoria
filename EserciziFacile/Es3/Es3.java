@@ -5,7 +5,8 @@ public class Es3 {
     
     public static void main (String[] argc){
         
-        Scanner scanner = new Scanner(System.in);
+        //modo diverso di ottenere dati da tastiera senza utilizzare java.io*
+        Scanner scanner = new Scanner(System.in); 
         ArrayList<Contatto> contact = new ArrayList<Contatto>();
         
 
@@ -19,7 +20,7 @@ public class Es3 {
             System.out.println("inserisci numero di telefono di "+(i+1)+":");
             String numero = scanner.nextLine();
 
-            contact.add(new Contatto(nome,numero));
+            contact.add(new Contatto(nome,numero)); //inserico quello scritto da tastiera nell'arrayList
         }
 
         /*contact.add(new Contatto("mario rossi","333 48559369"));

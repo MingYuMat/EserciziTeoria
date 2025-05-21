@@ -17,7 +17,7 @@ public class studente {
     public int getTotPresenze(){
         int totale=0;
         for(int giorno : presenze){
-            totale += giorno;
+            totale += giorno; //presente 1 assente 0 
         }
         return totale;
     }

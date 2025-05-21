@@ -19,13 +19,16 @@ public class Logger {
     private Logger(){
         try{
             writer = new FileWriter(LOG_FIlE,true);
+            //creo un oggetto che mi permette di scrivere su un file
             formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+            //ho creato una data con uno specifico pattern 
         }catch(IOException e){
             System.out.println("Errore nell'apertura log ");
             e.printStackTrace();
         }
     }
 
+    //voglio che esista solamente una istanza logger, quindi se non esiste la inizializzo , se esiste gia non faccio nulla
     public static Logger getInstance(){
         if(istanza ==null){
             istanza = new Logger();
@@ -36,6 +39,7 @@ public class Logger {
     public void log(String messaggio){
         try{
             String timestamp = LocalDateTime.now().format(formatter);
+            //ottengo l'orario di adesso con il formato creato in precedenza
             writer.write("{"+timestamp+"}"+messaggio+"\n");
             writer.flush();
         }catch(IOException e){
@@ -45,7 +49,7 @@ public class Logger {
 
     public void chiudi(){
         try {
-            if (writer != null){
+            if (writer != null){ // != null per evitare che writer esista 
                 writer.close();
             }
         }catch(IOException e){

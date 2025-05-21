@@ -14,8 +14,8 @@ public class Ese16 {
         ArrayList<String> parole = new ArrayList<>();
         int contatore = 0;
 
-        for (String parola : args){
-            if(parola.length() > 5){
+        for (String parola : args){ //ogni valore args viene aggiunto all'arraylist 
+            if(parola.length() > 5){ //filtro le parole con un numero maggiore di 5 lettere
                 parole.add(parola);
                 contatore++;
             }

@@ -17,5 +17,7 @@ public class pezzo {
         return String.format("%-12s", nome);
     }
 
+    //per far si che i nomi dei pezzi non strabordino , formatto una stringa in uno spazio maggiore
+
     
 }

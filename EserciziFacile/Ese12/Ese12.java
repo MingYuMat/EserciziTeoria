@@ -9,15 +9,15 @@ public class Ese12 {
             System.out.println("Esempio: java Ese12 5+3*2");
             return ;
         }   
-    
+        //rendo l'esercizio un po piu complesso, ora posso fare piu operazioni in fila
 
-        double risultato = Double.parseDouble(args[0]);
+        double risultato = Double.parseDouble(args[0]);//inserisco primo valore in risultato
 
-        for (int i=1; i<args.length; i += 2 ){
-            String operazione=args[i];
-            double numero = Double.parseDouble(args[i+1]);
+        for (int i=1; i<args.length; i += 2 ){ //vado avanti di due perche devo saltare l'operatore
+            String operazione=args[i]; //mi segno l'operatore 
+            double numero = Double.parseDouble(args[i+1]); //mi segno il numero
 
-
+            //in base al tipo di operatore eseguo l'operazione
             switch (operazione) {
                 case "+":
                     risultato += numero;

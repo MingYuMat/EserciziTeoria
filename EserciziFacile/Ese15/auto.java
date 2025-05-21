@@ -2,7 +2,7 @@ package Ese15;
 
 public class auto extends macchina{
 
-    public auto(String modello){
+    public auto(String modello){ //idem
         super(modello);
     }
 

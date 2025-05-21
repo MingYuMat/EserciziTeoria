@@ -8,6 +8,7 @@ public class es5 {
 
         ArrayList<forma> forme = new ArrayList<forma>();
 
+        //aggiungiamo elementi
         forme.add(new cerchio(3.0));
         forme.add(new rettangolo(4.0, 5.0));
         forme.add(new cerchio(2.5));

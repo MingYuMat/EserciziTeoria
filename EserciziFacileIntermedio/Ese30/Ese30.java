@@ -16,11 +16,11 @@ public class Ese30{
             x.stampaDettagli();
         }
 
-        int durataTot= canzone.calcolaDurataTotale(playList);
+        int durataTot= canzone.calcolaDurataTotale(playList); //ottengo totale dalla funzione
         System.out.println("\n la durata totale della playlist è "+durataTot+" secoondi");
 
-        int minuti= durataTot/60 ;
-        int secondi = durataTot % 60 ;
+        int minuti= durataTot/60 ; //ottengo minuti
+        int secondi = durataTot % 60 ; //ottengo secondi 
 
         System.out.println("Ecco qua: "+minuti+" min e "+secondi);
     

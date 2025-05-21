@@ -20,7 +20,7 @@ public class sala {
 
     public boolean prenotaPosto(String nomespettaore , film nomeFilm){
         if(prenotazioni.size()<postiTot){
-            prenotazioni.add(new prenotazione(nomespettaore,nomeFilm,this));
+            prenotazioni.add(new prenotazione(nomespettaore,nomeFilm,this)); //il this rappresenta la sala 
             return true ;
         } else {
             return false ;

@@ -10,14 +10,14 @@ public class Ese18 {
         System.out.println("aggiungo elementi allo stack");
         stack.push("uno");
         stack.push("due");
-        stack.push("tre");
+        stack.push("tre"); //inserimento valori 
 
         stack.stampa();
 
-        System.out.println("\nElemento in cima(peek): "+stack.peek());
+        System.out.println("\nElemento in cima(peek): "+stack.peek()); //guardo 
 
-        System.out.println("\nRimuovo elemento(pop): "+ stack.pop());
-        stack.stampa();
+        System.out.println("\nRimuovo elemento(pop): "+ stack.pop()); //tolgo 
+        stack.stampa(); //ristampo
 
         System.out.println("\nStack vuoto? "+stack.isEmpty());
 

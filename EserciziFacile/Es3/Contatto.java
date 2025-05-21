@@ -4,11 +4,14 @@ public class Contatto{
     private String nome;
     private String numero;
 
+    //costruttore 
     public Contatto(String nome,String numero){
         this.nome=nome;
         this.numero=numero;
     }
 
+
+    //tutti questi metodi servono per ottenere modificiare le variabili private
     public String getNome(String nome){
         return nome;
     }

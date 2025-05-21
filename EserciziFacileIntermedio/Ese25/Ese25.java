@@ -12,7 +12,7 @@ public class Ese25 {
         catalogo.aggiungi(new prodotto("Cuffie", 80.0, false));
     
         System.out.println("\n I prodotti sotto 100 euro");
-        catalogo.filtra(p-> p.getPrezzo()<100).forEach(System.out::println);
+        catalogo.filtra(p-> p.getPrezzo()<100).forEach(System.out::println); //stampo ogni elemento della lista che filtrato risulta avere il prezzo minore di zero 
 
          System.out.println("\n Prodotti disponibili:");
         catalogo.filtra(prodotto::isDisponibile).forEach(System.out::println);

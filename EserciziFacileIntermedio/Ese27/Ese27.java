@@ -16,14 +16,14 @@ public class Ese27 {
 
         ArrayList<studente> studenti = new ArrayList<>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader(input))){
+        try (BufferedReader br = new BufferedReader(new FileReader(input))){ //leggo dal file
             String line;
-            while((line = br.readLine())!= null){
-                String[] parti = line.split(",");
-                if(parti.length ==2){
-                    String nome= parti[0].trim();
+            while((line = br.readLine())!= null){ //prendo una riga del file 
+                String[] parti = line.split(","); //suddivo la riga in base alle virgole
+                if(parti.length ==2){  // se la riga è divisa in due parti 
+                    String nome= parti[0].trim(); //rimuovo possibili spazi
                     int voto = Integer.parseInt(parti[1].trim());
-                    studenti.add(new studente(nome,voto));
+                    studenti.add(new studente(nome,voto)); //uso i valori per creare un oggetto studente
                 }
             }
         }catch(IOException e ){
@@ -35,10 +35,10 @@ public class Ese27 {
         for (studente x : studenti){
             somma += x.getVoto();
         }
-        double media = studenti.isEmpty() ? 0: somma/studenti.size();
+        double media = studenti.isEmpty() ? 0: somma/studenti.size(); //se vuoto do zero , se no faccio media
 
-        try(BufferedWriter bw = new BufferedWriter(new FileWriter(output)) ){
-            bw.write(String.format("media voti:%.2f",media));
+        try(BufferedWriter bw = new BufferedWriter(new FileWriter(output)) ){ //scrivo sul file di output
+            bw.write(String.format("media voti:%.2f",media)); //format con decimali 
             System.out.println("media calcolata e salvata su "+ output );
         }catch (IOException e ){
             System.err.println("errore nella scrittura del file");

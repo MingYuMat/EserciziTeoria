@@ -23,24 +23,24 @@ public class ese28 {
             return;
         }
 
-        String[] coppia= json.split(",");
+        String[] coppia= json.split(","); //genero coppie chiave valore
 
-        Map<String,String> mappa = new HashMap<>();
+        Map<String,String> mappa = new HashMap<>(); 
 
         for(String x : coppia ){
-            String[] parti = x.split(":");
+            String[] parti = x.split(":"); //separo la coppia
 
             if(parti.length==2){
-                String chiave=parti[0].replaceAll("[\"\\s]", "");
+                String chiave=parti[0].replaceAll("[\"\\s]", ""); //rimuovo cose inutili 
                 String valore = parti[1].replaceAll("[\"\\s]", "");
-                mappa.put(chiave,valore);
+                mappa.put(chiave,valore); //inserisco nella mappa
             }
         }
 
-        String nome=mappa.get("nome");
-        int eta= Integer.parseInt(mappa.get("eta"));
+        String nome=mappa.get("nome"); //ottengo il valore a partire dalla chiave
+        int eta= Integer.parseInt(mappa.get("eta")); //idem qua 
 
-        persona p = new persona(nome, eta);
+        persona p = new persona(nome, eta); //genero oggett opersona e lo stampo 
         System.out.println("Oggetto creato ");
         System.out.println(p);
 

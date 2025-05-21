@@ -11,6 +11,8 @@ public class Ese32 {
             return;
         }
 
+
+        //l'esercizio richiedeva che i username e pssw fossero inseriti da terminale e non da tastiera
         String inputUsername=args[0];
         String inputPassword=args[1];
 
@@ -20,9 +22,9 @@ public class Ese32 {
         utenti.put("pietro","12345");
         utenti.put("andrea","123456");
         
-        if(utenti.containsKey(inputUsername)){
+        if(utenti.containsKey(inputUsername)){ //check username
             String passCorretta = utenti.get(inputUsername);
-            if(passCorretta.equals(inputPassword)){
+            if(passCorretta.equals(inputPassword)){ //check password 
                 System.out.println("Benvenuto....");
             }else{
                 System.out.println("passoword errata");

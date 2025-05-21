@@ -9,13 +9,15 @@ public class Es2{
        
         ArrayList<sviluppatore> sviluppatores = new ArrayList<sviluppatore>();
 
+        
         for (int i = 0; i < 10;i++){
+            //metodo di inserimenot di elementi in un arraylist
             sviluppatores.add(new sviluppatore("Sviluppatore" + i, "Matricola" + i));
         }
 
         manager m = new manager("Manager", "mobile");
 
-        for (sviluppatore sviluppatore : sviluppatores){
+        for (sviluppatore sviluppatore : sviluppatores){ //for each
             sviluppatore.calcolaPaga();
         }
 

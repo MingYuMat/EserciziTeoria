@@ -26,7 +26,7 @@ public class Ese31 {
             String filtro = input.nextLine().toLowerCase();
 
             System.out.println("risultati trovati");
-            for(contatto x : rubrica){
+            for(contatto x : rubrica){ //se il mio contatto contiene il nome che ho scritto lo stampa
                 if(x.getNome().toLowerCase().contains(filtro)){
                     x.stampa();
                 }
@@ -38,7 +38,7 @@ public class Ese31 {
 
             System.out.println("risultati trovati");
             for(contatto y : rubrica){
-                if(y.getEmail().toLowerCase().endsWith("@"+dominio)){
+                if(y.getEmail().toLowerCase().endsWith("@"+dominio)){ //se continee @gmail.com lo stampa
                     y.stampa();
                 }
             }

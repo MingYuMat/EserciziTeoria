@@ -12,7 +12,7 @@ public class Es4 {
         classifica.add(new squadra("tiger",42));
         classifica.add(new squadra("lione",33));
 
-        Collections.sort(classifica);
+        Collections.sort(classifica); //ordinamento dell'array
 
         for(squadra q : classifica){
             System.out.println(q);

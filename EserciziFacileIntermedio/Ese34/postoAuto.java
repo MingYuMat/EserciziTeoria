@@ -9,7 +9,7 @@ public class postoAuto {
     }
 
     public boolean entraAuto(auto a ){
-        if(!isOccupato()){
+        if(!isOccupato()){ // se non è occupato riepi
             this.auto=a;
             return true ;
         }
@@ -17,7 +17,7 @@ public class postoAuto {
     }
 
     public boolean esciAuto(){
-        if(!isOccupato()){
+        if(!isOccupato()){ //se non è occupato svuota 
             this.auto=null;
             return true;
         }

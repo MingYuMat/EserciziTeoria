@@ -16,13 +16,14 @@ public class Ese35 {
         classifica.add(new nazionale("milan", 80));
         classifica.add(new nazionale("interMERDA", 71));
 
-        Collections.sort(classifica);
+        Collections.sort(classifica); //ordino 
 
         System.out.println("--Classifica finale");
-        int posizione =1;
+        int posizione =1; 
         for(nazionale x : classifica){
             System.out.println(posizione+". "+x);
             posizione++;
         }
+        //scrivo la classifica 
     }
 }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ese33_v2 {
 
     public static void main(String[] args) {
-        Logger logger = Logger.getInstance();
+        Logger logger = Logger.getInstance(); //geenro la mia istanza unica per tutto il tempo di esecuzione del programma
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Inserisci messaggi da loggare. Digita 'esci' per terminare.");
@@ -18,7 +18,7 @@ public class Ese33_v2 {
                 break;
             }
 
-            logger.log(input);
+            logger.log(input); //vado a scrivere su file quanto ricevuto da tastiera
         }
 
         logger.chiudi();

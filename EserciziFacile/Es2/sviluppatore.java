@@ -4,6 +4,7 @@ public class sviluppatore extends dipendente implements lavoratore,pagabile {
 
     private String matricola;
 
+    //costruttore 
     public sviluppatore(String nome,String matricola){
         super(nome);
         this.matricola=matricola;

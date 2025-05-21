@@ -22,7 +22,7 @@ public class parcheggio {
         return false;
     }
 
-    public boolean esciAuto(String targa){
+    public boolean esciAuto(String targa){ //se il posto è occupato e la targa coincide esci 
         for(postoAuto y : posti){
             if(y.isOccupato() && y.getAuto().getTarga().equals(targa)){
                 return y.esciAuto(); 
@@ -36,9 +36,9 @@ public class parcheggio {
             postoAuto x = posti[j];
 
             System.out.println("posto "+(j+1)+": ");
-            if(x.isOccupato()){
+            if(x.isOccupato()){ // se il posto è occupato dimmi che macchina lo occupa 
                 System.out.println(x.getAuto());
-            }else{
+            }else{ //se no scrivi libero 
                 System.out.println("libero");
             }
         }
